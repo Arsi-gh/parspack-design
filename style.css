@@ -1,0 +1,213 @@
+@import url(http://awebfont.ir/css?id=1116);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'B Yekan', tahoma, Arial;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+/* header coding */
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+.menu-right{
+    display: flex;
+    align-items: center;
+}
+.menu-items{
+    display: flex;
+    padding-right: 1rem;
+    font-size: 18px;
+}
+.menu-item{
+    list-style-type: none;
+    padding: 20px;
+    color: #999;
+}
+.menu-left{
+    display: flex;
+    justify-content: space-between;
+}
+.header-top .menu-left p{
+    padding: 10px 20px 10px 20px;  
+}
+.button-Enter{
+    color: #fff;
+    background-color: #59A0DB;
+    border-radius: 30px;
+}
+.button-SignUp{
+    color: #59A0DB;
+}
+.header-botttom{
+    display: flex;
+}
+.header_bottom__right{
+    width: 40%;
+}
+.header-title{
+    margin: 20px 0 10px 0;
+    color: #59A0DB;
+}
+.header-text{
+    margin-bottom: 20px;
+    color: #59A0DB;
+    font-size: 20px;
+}
+.header-info{
+    text-align: justify;
+    line-height: 30px;
+    margin-left: 50px;
+    color: #616161;
+}
+.header_bottom__left{
+    width: 60%;
+    margin-top: 20px;
+}
+
+/* main coding */
+
+.host-services{
+    background: linear-gradient(to bottom,rgba(214,238,255,0) 0,#d6eeff 100%);  
+}
+.host-ser-title{
+    text-align: center;
+    margin: 50px;
+}
+.host-contain{
+    margin: 100px;
+    display: flex;
+    padding-bottom: 80px;
+}
+.host-item{
+    margin:10px;
+    border: 2px solid #999;
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.host-item-title{
+    position: absolute;
+    background-color: #59A0DB;
+    color: #fff;
+    font-size: 20px ;
+    top: -10px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border-radius: 20px;
+}
+.host-item-discription{
+    text-align: justify;
+    color: #616161;
+}
+.features{
+
+}
+.feature_item{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.feature_image{
+    width: 30%;
+}
+.feature-desc{
+    width: 30%;
+    text-align: justify;
+    line-height: 30px;
+}
+.feature-title{
+    color: #59A0DB;
+    margin: 20px 0 20px 20px;
+}
+.feature-text{
+    color: #999;
+}
+.why_desc{
+    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_design_right{
+    background-color: #288ED9;
+    width: 300px;
+    height: 400px;
+    position: absolute;
+    right: 350px;
+    border-radius: 20px;
+    padding: 60px;
+    text-align: center;
+}
+.card_design_title{
+    margin: 1px;
+    font-size: 40px;
+    color: #fff;
+}
+.card_design_text{
+    color: #fff;
+}
+.card_design_main{
+    background-color: #FFFFFF;
+    width: 1000px;
+    height: 350px;
+    position: relative;
+    border-radius: 15px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+.card_main_text{
+    padding: 100px;
+    padding-right: 400px;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: justify;
+}
+/* footer coding */
+footer{
+    text-align: center;
+    color: #999;
+}
+.other_links{
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.other_links img{
+    width: 80px;
+}
+.other_links p{
+    font-size:18px;
+    color: #59A0DB;
+}
+.logos{
+    font-size: 30px;
+    margin-top: 50px;
+}
+.logos i{
+    margin: 10px 20px 20px 20px;
+}
+.footer_text{
+    margin-bottom: 20px;
+}
+.copy_right_fa span{
+    color: #59A0DB;
+    margin: 10px;
+}
+.copy_right_en span{
+    color: #59A0DB;
+    margin: 5px;
+}
